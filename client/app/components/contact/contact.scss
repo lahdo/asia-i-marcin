@@ -1,0 +1,14 @@
+@import "../../common/common";
+
+.contact {
+  color: red;
+  h1 {
+    color: $color3;
+    font-size: 50px;
+  }
+  p {
+    color: $color3;
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+}

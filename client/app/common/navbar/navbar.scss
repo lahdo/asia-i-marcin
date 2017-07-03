@@ -1,0 +1,47 @@
+@import '../common';
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar.navbar-default {
+  text-align: center;
+}
+
+.navbar-default .navbar-nav.custom-nav > .active > a, .navbar-default .navbar-nav.custom-nav > .active > a:hover, .navbar-default .navbar-nav.custom-nav > .active > a:focus {
+  color: $color2;
+}
+
+.navbar-default .navbar-nav.custom-nav > li > a {
+  color: $color2;
+}
+
+.navbar-default .navbar-nav.custom-nav > .active > a, .navbar-default .navbar-nav.custom-nav > .active > a:hover, .navbar-default .navbar-nav.custom-nav > .active > a:focus {
+  color: $color2;
+}
+
+.navbar-default .navbar-nav.custom-nav > .active > a, .navbar-default .navbar-nav.custom-nav > .active > a:hover, .navbar-default .navbar-nav.custom-nav > .active > a:focus {
+  color: $color2;
+}
+
+.navbar-default .navbar-nav.custom-nav > .active > a:hover {
+  color: $color2;
+}
+
+.navbar-default .navbar-nav.custom-nav > .active > a, .navbar-default .navbar-nav.custom-nav > .active > a:hover, .navbar-default .navbar-nav.custom-nav > .active > a:focus {
+  color: $color2;
+}
+
+.navbar-default .navbar-nav.custom-nav > li > a:hover, .navbar-default .navbar-nav.custom-nav > li > a:focus {
+  color: $color2;
+}
+
+.navbar-default .navbar-nav.custom-nav > li > a:hover, .navbar-default .navbar-nav.custom-nav > li > a:focus {
+  color: $color2;
+}
+
+.navbar-default .navbar-nav.custom-nav > .active > a, .navbar-default .navbar-nav.custom-nav > .active > a:hover, .navbar-default .navbar-nav.custom-nav > .active > a:focus {
+  color: $color2;
+}

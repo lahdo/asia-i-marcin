@@ -1,0 +1,40 @@
+<section class="main-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+
+        <div class="asia-janczur">
+          <p>Zdjęcia, które widzicie zostały wykonany przez Joannę Janczur.</p>
+          <p>Zachęcamy do odwiedzin
+            <span>
+            <a href="http://joannajanczur.pl"
+               target="_blank">strony</a>
+          </span>, oraz
+            <span>
+          <a href="https://www.facebook.com/JoannaJanczurFotografia"
+             target="_blank">profilu na fb</a>
+          </span>
+            Asi, oraz skorzystania z Jej usług.</p>
+        </div>
+
+        <ul class="dynamic-grid"
+            angular-grid="$ctrl.pics"
+            data-grid-width="300"
+            data-gutter-size="10"
+            data-angular-grid-id="gallery"
+            data-refresh-on-img-load="false">
+          <li data-ng-repeat="pic in $ctrl.pics"
+              class="grid">
+            <img src="{{ pic.media.m }}"
+                 class="grid-img"
+                 data-actual-width="{{pic.actualWidth}}"
+                 data-actual-height="{{pic.actualHeight}}"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>

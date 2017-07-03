@@ -1,2 +1,4 @@
 # asia-i-marcin
-wedding splash website
+Website for my wedding written in Angular 1.6
+
+<http://www.asiaimarcin.pl/>

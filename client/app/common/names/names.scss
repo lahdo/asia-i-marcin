@@ -1,0 +1,21 @@
+@import "../../common/common";
+
+.names h1{
+  //font-family: 'Overlock', cursive;
+  //font-family: 'Arima Madurai', cursive;
+  //font-family: 'Nixie One', cursive;
+  //font-family: 'Bubblegum Sans', cursive;
+  font-family: 'Parisienne', cursive;
+  //font-family: 'Love Ya Like A Sister', cursive;
+  //font-family: 'Averia Sans Libre', cursive;
+  //font-family: 'McLaren', cursive;
+  color: $color3;
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.names p {
+  font-size: 22px;
+  color: $color3;
+  font-weight: normal;
+}

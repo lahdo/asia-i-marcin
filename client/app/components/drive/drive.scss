@@ -1,0 +1,25 @@
+@import "../../common/common";
+
+.map {
+  height: 500px;
+}
+
+.drive {
+  font-family: "Playfair Display", sans-serif;
+  h1 {
+    color: $color3;
+    font-size: 50px;
+  }
+  p {
+    color: $color3;
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  a {
+    color: $color2;
+    text-decoration: none;
+  }
+  a:hover, a:focus {
+    color: $color2;
+  }
+}
