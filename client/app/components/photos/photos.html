@@ -23,13 +23,14 @@
             data-gutter-size="10"
             data-angular-grid-id="gallery"
             data-refresh-on-img-load="false">
-          <li data-ng-repeat="pic in $ctrl.pics"
+          <li data-ng-repeat="url in $ctrl.pics"
               class="grid">
-            <img src="{{ pic.media.m }}"
+            <img src="{{ url }}"
                  class="grid-img"
-                 data-actual-width="{{pic.actualWidth}}"
-                 data-actual-height="{{pic.actualHeight}}"
+
             />
+            <!--data-actual-width="{{pic.actualWidth}}"-->
+            <!--data-actual-height="{{pic.actualHeight}}"-->
           </li>
         </ul>
       </div>

@@ -1,8 +1,9 @@
 {
-  "name": "ng6-starter",
+  "name": "asia-i-marcin",
   "version": "0.0.1",
   "description": "Starter for Angular + ES6 + (Webpack or JSPM)",
   "main": "index.js",
+  "homepage": "https://lahdo.github.io/asia-i-marcin",
   "dependencies": {
     "angular": "^1.6.4",
     "angular-ui": "^1.0.0",
